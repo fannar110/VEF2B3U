@@ -1,0 +1,28 @@
+1.Hvað er ECMAScript?
+ECMAScript er uppsetning máls sem er notað við hönnun jscript javascript.
+2.Afhverju að nota === fremur en == í JavaScript?
+Til að nota til að checka hvort einhvað sé alveg eins 
+3.Hvað kemur út og hvaða type (sjá typeof operator)?
+a) var result = 5 * “5”; 25 því það er 5*5
+b) var result = 5 + “5”; 55 því það er int 5 og string 5
+4.Hvað eru margar global breytur í kóðanum?
+2
+5.Hver er munurinn á A og B? Útskýrðu hvað “use strict“ gerir.
+B inniheldur Strict þannig það verður að hafa set variable.
+6.Hver er munurinn á null og undefined í notkun?
+null er jafnt og ekkert en undefined er object sem hefur ekki fengið value. 
+7.Gerðu kóðann skilvirkari og rökstuddu breytinguna!
+var names = ['George','Ringo','Paul','John'];
+for(var i=0,j=names.length;i<j;i++){
+  doSomeThingWith(names[i]);
+}
+Fann ekkert.
+8. Hver er munurinn á for of, forEach og for in lykkju. Komdu með dæmi?
+for in er notað til að setja object in loopur. foreach er notar array og for of virkar með iterable
+9. Hvað er NaN og afhverju er eftirfarandi false?
+ console.log(NaN == NaN); Það merkir Not a Number. NaN er alltaf rangt nema notað console.log(isNanN(NaN))
+10. Hvað birtist (úttak)? Útskýrðu hversvegna.
+ console.log(null || "user")
+user
+
+Fannar Freyr Björgvinsson
